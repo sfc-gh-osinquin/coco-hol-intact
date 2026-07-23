@@ -1,0 +1,21 @@
+policyholder_id,first_name,last_name,policyholder_type,company_name,city,province,postal_code,risk_tier,years_as_customer,total_policies
+PH001,Michael,Chen,Individual,,Toronto,ON,M5V 2T6,Low,8,3
+PH002,Sarah,Thompson,Individual,,Mississauga,ON,L5B 1M2,Low,12,2
+PH003,,,Commercial,Northern Shield Construction Ltd,Barrie,ON,L4M 3B2,Medium,5,4
+PH004,James,Okafor,Individual,,Ottawa,ON,K1P 5G4,Low,3,2
+PH005,,,Commercial,Great Lakes Shipping Co,Thunder Bay,ON,P7B 5E2,High,7,6
+PH006,Emily,Rodriguez,Individual,,Hamilton,ON,L8P 1A2,Medium,6,2
+PH007,David,Kim,Individual,,St. Catharines,ON,L2R 3C4,Low,15,3
+PH008,,,Commercial,Maple Tech Solutions Inc,Oshawa,ON,L1H 7K8,Low,4,3
+PH009,Lisa,Patel,Individual,,Kitchener,ON,N2G 1C5,Low,9,2
+PH010,,,Commercial,Wellington Farms Corp,London,ON,N6A 3K7,Medium,11,5
+PH011,Robert,Martin,Individual,,Brampton,ON,L6T 3R5,High,2,1
+PH012,Jennifer,Wong,Individual,,Markham,ON,L3R 5G2,Low,7,3
+PH013,,,Commercial,Border City Transport Ltd,Windsor,ON,N9A 1B9,High,3,4
+PH014,Thomas,Fraser,Individual,,Orillia,ON,L3V 6H2,Medium,5,2
+PH015,,,Commercial,Limestone Property Group,Kingston,ON,K7L 2N6,Low,10,7
+PH016,Amanda,Leblanc,Individual,,Toronto,ON,M4W 1A8,Low,14,4
+PH017,,,Commercial,York Mills Restaurant Group,Toronto,ON,M2P 1B5,Medium,6,3
+PH018,Kevin,Singh,Individual,,Brampton,ON,L6Y 4R3,Medium,4,2
+PH019,Catherine,Murphy,Individual,,Ottawa,ON,K2P 0A4,Low,11,3
+PH020,,,Commercial,Sudbury Mining Services Inc,Sudbury,ON,P3E 4S4,High,8,5

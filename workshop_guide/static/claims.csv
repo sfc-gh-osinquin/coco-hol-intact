@@ -1,0 +1,41 @@
+claim_id,policy_id,policyholder_id,claim_number,claim_date,incident_date,claim_type,claim_amount,deductible_applied,net_payout,claim_status,adjuster_name,region,description
+CLM001,POL001,PH001,CLM-2024-00001,2024-03-15,2024-03-14,Auto Collision,12500.00,500.00,12000.00,Closed,Marie Dubois,Greater Toronto,Rear-end collision at Yonge and Bloor intersection during rush hour
+CLM002,POL002,PH001,CLM-2024-00002,2024-04-20,2024-04-18,Water Damage,35000.00,1000.00,34000.00,Closed,Pierre Gagnon,Greater Toronto,Burst pipe in basement caused flooding affecting finished basement and HVAC
+CLM003,POL004,PH002,CLM-2024-00003,2024-05-10,2024-05-09,Auto Theft,28000.00,500.00,27500.00,Closed,Marie Dubois,Greater Toronto,Vehicle stolen from mall parking lot recovered 3 days later with damage
+CLM004,POL006,PH003,CLM-2024-00004,2024-02-28,2024-02-27,Property Fire,125000.00,5000.00,120000.00,Closed,Jean-Marc Tremblay,Central Ontario,Workshop fire caused by faulty wiring spread to storage area
+CLM005,POL007,PH003,CLM-2024-00005,2024-06-15,2024-06-14,Auto Collision,8500.00,2500.00,6000.00,Closed,Pierre Gagnon,Central Ontario,Company truck rear-ended at construction zone
+CLM006,POL010,PH004,CLM-2024-00006,2024-07-22,2024-07-21,Auto Collision,15000.00,500.00,14500.00,Under Review,Sophie Lavoie,Eastern Ontario,Multi-vehicle collision on Highway 417 during rainstorm
+CLM007,POL011,PH004,CLM-2024-00007,2024-08-05,2024-08-03,Wind/Hail,22000.00,1000.00,21000.00,Approved,Jean-Marc Tremblay,Eastern Ontario,Severe thunderstorm damaged roof shingles and siding
+CLM008,POL012,PH005,CLM-2024-00008,2024-04-10,2024-04-08,Equipment Breakdown,85000.00,25000.00,60000.00,Closed,Andre Bouchard,Northern Ontario,Grain conveyor motor failure caused backup and spoilage
+CLM009,POL013,PH005,CLM-2024-00009,2024-05-25,2024-05-23,Marine Cargo,220000.00,50000.00,170000.00,Under Review,Andre Bouchard,Northern Ontario,Container cargo damaged during Lake Superior storm transit
+CLM010,POL016,PH005,CLM-2024-00010,2024-09-01,2024-08-30,Environmental,450000.00,100000.00,350000.00,Open,Andre Bouchard,Northern Ontario,Diesel fuel leak from storage tank contaminated adjacent property
+CLM011,POL018,PH006,CLM-2024-00011,2024-06-30,2024-06-29,Auto Collision,9200.00,1000.00,8200.00,Closed,Marie Dubois,Greater Toronto,T-bone collision at uncontrolled intersection
+CLM012,POL019,PH006,CLM-2024-00012,2024-09-15,2024-09-14,Theft/Break-in,18500.00,1000.00,17500.00,Closed,Pierre Gagnon,Greater Toronto,Home break-in while on vacation. Electronics and jewelry stolen
+CLM013,POL020,PH007,CLM-2024-00013,2024-03-05,2024-03-04,Auto Collision,5500.00,500.00,5000.00,Closed,Sophie Lavoie,Southern Ontario,Fender bender in parking garage
+CLM014,POL021,PH007,CLM-2024-00014,2024-11-20,2024-11-18,Ice/Snow Damage,8000.00,1000.00,7000.00,Closed,Jean-Marc Tremblay,Southern Ontario,Ice dam caused water infiltration through roof
+CLM015,POL023,PH008,CLM-2024-00015,2024-07-10,2024-07-09,Property Fire,45000.00,5000.00,40000.00,Closed,Pierre Gagnon,Greater Toronto,Kitchen fire in commercial property from grease trap ignition
+CLM016,POL025,PH008,CLM-2024-00016,2024-08-20,2024-08-18,Cyber Breach,175000.00,25000.00,150000.00,Under Review,Sophie Lavoie,Greater Toronto,Ransomware attack encrypted client database requiring forensic recovery
+CLM017,POL026,PH009,CLM-2024-00017,2024-04-28,2024-04-27,Auto Collision,7800.00,500.00,7300.00,Closed,Marie Dubois,Southwestern Ontario,Hydroplaning incident on highway during spring rain
+CLM018,POL027,PH009,CLM-2024-00018,2024-10-05,2024-10-03,Water Damage,12000.00,1000.00,11000.00,Closed,Jean-Marc Tremblay,Southwestern Ontario,Hot water tank failure flooded laundry room and hallway
+CLM019,POL028,PH010,CLM-2024-00019,2024-08-15,2024-08-14,Hail Damage,95000.00,10000.00,85000.00,Closed,Andre Bouchard,Southwestern Ontario,Major hailstorm damaged multiple farm buildings and equipment
+CLM020,POL029,PH010,CLM-2024-00020,2024-09-10,2024-09-09,Auto Collision,22000.00,2500.00,19500.00,Closed,Andre Bouchard,Southwestern Ontario,Farm truck collision with deer on rural highway
+CLM021,POL030,PH010,CLM-2024-00021,2024-07-30,2024-07-28,Crop Damage,180000.00,50000.00,130000.00,Closed,Andre Bouchard,Southwestern Ontario,Drought conditions reduced corn and soybean yield by 40%
+CLM022,POL033,PH011,CLM-2024-00022,2024-09-22,2024-09-21,Auto Collision,42000.00,1000.00,41000.00,Under Investigation,Marie Dubois,Greater Toronto,Single vehicle accident on 401 with disputed circumstances
+CLM023,POL034,PH012,CLM-2024-00023,2024-06-18,2024-06-17,Auto Collision,18000.00,500.00,17500.00,Closed,Pierre Gagnon,Greater Toronto,Intersection collision during lane change on Highway 7
+CLM024,POL035,PH012,CLM-2024-00024,2024-12-01,2024-11-29,Frozen Pipes,28000.00,1000.00,27000.00,Open,Jean-Marc Tremblay,Greater Toronto,Frozen pipes burst during cold snap while home vacant for holidays
+CLM025,POL037,PH013,CLM-2024-00025,2024-05-20,2024-05-19,Auto Collision,55000.00,5000.00,50000.00,Closed,Sophie Lavoie,Southwestern Ontario,Transport truck jackknifed on icy 401 overpass
+CLM026,POL038,PH013,CLM-2024-00026,2024-10-30,2024-10-28,Property Fire,280000.00,10000.00,270000.00,Open,Jean-Marc Tremblay,Southwestern Ontario,Warehouse fire from electrical short in loading dock area
+CLM027,POL040,PH013,CLM-2024-00027,2024-07-05,2024-07-03,Cargo Damage,65000.00,10000.00,55000.00,Closed,Sophie Lavoie,Southwestern Ontario,Refrigerated cargo spoiled due to unit failure during heat wave
+CLM028,POL041,PH014,CLM-2024-00028,2024-10-15,2024-10-14,Auto Collision,11000.00,500.00,10500.00,Closed,Pierre Gagnon,Central Ontario,Hit-and-run in grocery store parking lot
+CLM029,POL042,PH014,CLM-2024-00029,2024-11-10,2024-11-09,Windstorm,15000.00,1000.00,14000.00,Approved,Jean-Marc Tremblay,Central Ontario,High winds tore off porch roof and damaged fence
+CLM030,POL043,PH015,CLM-2024-00030,2024-03-22,2024-03-20,Property Flood,55000.00,15000.00,40000.00,Closed,Andre Bouchard,Eastern Ontario,Spring flooding from St. Lawrence River damaged ground floor
+CLM031,POL044,PH015,CLM-2024-00031,2024-06-01,2024-05-30,Slip and Fall,35000.00,25000.00,10000.00,Under Review,Sophie Lavoie,Eastern Ontario,Tenant injured in parking lot due to uneven pavement
+CLM032,POL050,PH016,CLM-2024-00032,2024-02-14,2024-02-13,Auto Collision,6500.00,500.00,6000.00,Closed,Marie Dubois,Greater Toronto,Minor fender bender on Gardiner Expressway
+CLM033,POL051,PH016,CLM-2024-00033,2024-09-30,2024-09-28,Water Damage,42000.00,1000.00,41000.00,Closed,Pierre Gagnon,Greater Toronto,Condo above flooded causing ceiling collapse in living room
+CLM034,POL054,PH017,CLM-2024-00034,2024-08-10,2024-08-09,Property Fire,85000.00,5000.00,80000.00,Closed,Jean-Marc Tremblay,Greater Toronto,Kitchen fire at restaurant location spread to dining area
+CLM035,POL056,PH017,CLM-2024-00035,2024-11-25,2024-11-24,Liquor Liability,45000.00,5000.00,40000.00,Open,Sophie Lavoie,Greater Toronto,Patron injured in altercation claimed negligent service of alcohol
+CLM036,POL057,PH018,CLM-2024-00036,2024-08-28,2024-08-27,Auto Collision,35000.00,1000.00,34000.00,Under Investigation,Marie Dubois,Greater Toronto,Rollover on Highway 410 ramp with disputed speed
+CLM037,POL059,PH019,CLM-2024-00037,2024-05-05,2024-05-04,Auto Vandalism,4500.00,500.00,4000.00,Closed,Sophie Lavoie,Eastern Ontario,Vehicle keyed and tires slashed overnight in residential area
+CLM038,POL060,PH019,CLM-2024-00038,2024-12-10,2024-12-08,Snow Load,18000.00,1000.00,17000.00,Open,Jean-Marc Tremblay,Eastern Ontario,Heavy snowfall collapsed garage roof
+CLM039,POL062,PH020,CLM-2024-00039,2024-09-20,2024-09-18,Equipment Breakdown,320000.00,50000.00,270000.00,Under Review,Andre Bouchard,Northern Ontario,Mine conveyor system catastrophic failure halted operations 3 weeks
+CLM040,POL064,PH020,CLM-2024-00040,2024-10-15,2024-10-12,Environmental,650000.00,250000.00,400000.00,Open,Andre Bouchard,Northern Ontario,Tailings pond overflow contaminated nearby creek during heavy rainfall

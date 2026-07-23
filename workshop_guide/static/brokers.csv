@@ -1,0 +1,16 @@
+broker_id,broker_name,region,city,province,license_number,specialty,years_active,office_size
+BRK001,Ontario Shield Insurance Brokers,Greater Toronto,Toronto,ON,LIC-2019-4451,Commercial,12,Large
+BRK002,Maple Leaf Coverage Group,Greater Toronto,Mississauga,ON,LIC-2017-3328,Personal Lines,8,Medium
+BRK003,Lakeside Insurance Partners,Central Ontario,Barrie,ON,LIC-2015-2210,Auto,15,Medium
+BRK004,National Capital Brokers,Eastern Ontario,Ottawa,ON,LIC-2018-3892,Multi-line,6,Large
+BRK005,Thunder Bay Risk Solutions,Northern Ontario,Thunder Bay,ON,LIC-2020-5103,Commercial,4,Small
+BRK006,Golden Horseshoe Insurance,Greater Toronto,Hamilton,ON,LIC-2016-2875,Property,10,Medium
+BRK007,Niagara Coverage Associates,Southern Ontario,St. Catharines,ON,LIC-2014-1893,Personal Lines,14,Small
+BRK008,Durham Region Brokers,Greater Toronto,Oshawa,ON,LIC-2019-4627,Auto,7,Medium
+BRK009,Waterloo Risk Advisors,Southwestern Ontario,Kitchener,ON,LIC-2013-1456,Commercial,16,Large
+BRK010,London Insurance Network,Southwestern Ontario,London,ON,LIC-2021-5589,Multi-line,3,Medium
+BRK011,Peel District Coverage,Greater Toronto,Brampton,ON,LIC-2017-3541,Auto,9,Medium
+BRK012,York Region Insurance Group,Greater Toronto,Markham,ON,LIC-2016-2998,Commercial,11,Large
+BRK013,Windsor-Essex Brokers,Southwestern Ontario,Windsor,ON,LIC-2018-4102,Personal Lines,5,Small
+BRK014,Simcoe County Partners,Central Ontario,Orillia,ON,LIC-2020-5234,Property,4,Small
+BRK015,Kingston Insurance Alliance,Eastern Ontario,Kingston,ON,LIC-2015-2567,Multi-line,13,Medium

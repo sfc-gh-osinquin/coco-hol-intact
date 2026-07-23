@@ -1,0 +1,60 @@
+payment_id,claim_id,payment_date,payment_type,amount,payee_type,payee_name,payment_method,payment_status
+PAY001,CLM001,2024-04-10,Repair,8500.00,Vendor,GTA Auto Body Works,EFT,Completed
+PAY002,CLM001,2024-04-25,Rental,1200.00,Vendor,Enterprise Rent-A-Car,EFT,Completed
+PAY003,CLM001,2024-05-01,Medical,2300.00,Provider,Sunnybrook Physiotherapy,EFT,Completed
+PAY004,CLM002,2024-05-15,Restoration,22000.00,Vendor,ServiceMaster Restore Toronto,EFT,Completed
+PAY005,CLM002,2024-06-01,Contents,8500.00,Policyholder,Michael Chen,Cheque,Completed
+PAY006,CLM002,2024-06-10,Accommodation,3500.00,Policyholder,Michael Chen,EFT,Completed
+PAY007,CLM003,2024-06-05,Vehicle Repair,18000.00,Vendor,Mississauga Collision Centre,EFT,Completed
+PAY008,CLM003,2024-06-20,Rental,2800.00,Vendor,Hertz Canada,EFT,Completed
+PAY009,CLM003,2024-07-01,Contents,6700.00,Policyholder,Sarah Thompson,Cheque,Completed
+PAY010,CLM004,2024-03-30,Emergency Services,15000.00,Vendor,Barrie Fire Restoration,EFT,Completed
+PAY011,CLM004,2024-04-15,Structural Repair,75000.00,Vendor,Northern Build Contractors,EFT,Completed
+PAY012,CLM004,2024-05-01,Equipment,25000.00,Policyholder,Northern Shield Construction Ltd,EFT,Completed
+PAY013,CLM004,2024-05-15,Loss of Income,5000.00,Policyholder,Northern Shield Construction Ltd,EFT,Completed
+PAY014,CLM005,2024-07-10,Vehicle Repair,6000.00,Vendor,Barrie Truck Centre,EFT,Completed
+PAY015,CLM007,2024-09-01,Roof Repair,15000.00,Vendor,Ottawa Roofing Specialists,EFT,Completed
+PAY016,CLM007,2024-09-15,Siding,6000.00,Vendor,Ottawa Roofing Specialists,EFT,Completed
+PAY017,CLM008,2024-05-20,Equipment Repair,45000.00,Vendor,Northern Heavy Equipment,EFT,Completed
+PAY018,CLM008,2024-06-01,Spoilage,15000.00,Policyholder,Great Lakes Shipping Co,EFT,Completed
+PAY019,CLM011,2024-07-20,Vehicle Repair,5200.00,Vendor,Hamilton Auto Body,EFT,Completed
+PAY020,CLM011,2024-08-01,Medical,3000.00,Provider,McMaster Physiotherapy,EFT,Completed
+PAY021,CLM012,2024-10-05,Contents,12000.00,Policyholder,Emily Rodriguez,Cheque,Completed
+PAY022,CLM012,2024-10-15,Security,2500.00,Vendor,ADT Security Hamilton,EFT,Completed
+PAY023,CLM012,2024-10-20,Repairs,3000.00,Vendor,Hamilton Glass & Door,EFT,Completed
+PAY024,CLM013,2024-03-25,Vehicle Repair,5000.00,Vendor,St. Catharines Auto Body,EFT,Completed
+PAY025,CLM014,2024-12-10,Roof Repair,5000.00,Vendor,Niagara Roofing,EFT,Completed
+PAY026,CLM014,2024-12-20,Interior,2000.00,Vendor,Niagara Roofing,EFT,Completed
+PAY027,CLM015,2024-08-01,Emergency,12000.00,Vendor,Durham Fire Restoration,EFT,Completed
+PAY028,CLM015,2024-08-20,Structural,28000.00,Vendor,GTA Commercial Builders,EFT,Completed
+PAY029,CLM017,2024-05-20,Vehicle Repair,7300.00,Vendor,Kitchener Collision,EFT,Completed
+PAY030,CLM018,2024-11-01,Plumbing,4500.00,Vendor,Waterloo Plumbing Services,EFT,Completed
+PAY031,CLM018,2024-11-15,Restoration,6500.00,Vendor,ServiceMaster Kitchener,EFT,Completed
+PAY032,CLM019,2024-09-10,Roof Repair,35000.00,Vendor,London Agricultural Builders,EFT,Completed
+PAY033,CLM019,2024-09-25,Equipment,30000.00,Policyholder,Wellington Farms Corp,EFT,Completed
+PAY034,CLM019,2024-10-10,Siding/Exterior,20000.00,Vendor,London Agricultural Builders,EFT,Completed
+PAY035,CLM020,2024-10-01,Vehicle Repair,19500.00,Vendor,London Truck Centre,EFT,Completed
+PAY036,CLM021,2024-08-30,Crop Loss,130000.00,Policyholder,Wellington Farms Corp,EFT,Completed
+PAY037,CLM023,2024-07-10,Vehicle Repair,12000.00,Vendor,Markham Auto Body,EFT,Completed
+PAY038,CLM023,2024-07-25,Rental,2500.00,Vendor,Budget Car Rental,EFT,Completed
+PAY039,CLM023,2024-08-01,Medical,3000.00,Provider,York Region Physio,EFT,Completed
+PAY040,CLM025,2024-06-15,Vehicle Repair,35000.00,Vendor,Windsor Heavy Equipment,EFT,Completed
+PAY041,CLM025,2024-07-01,Towing,5000.00,Vendor,401 Towing Services,EFT,Completed
+PAY042,CLM025,2024-07-10,Loss of Income,10000.00,Policyholder,Border City Transport Ltd,EFT,Completed
+PAY043,CLM027,2024-07-25,Cargo Loss,55000.00,Policyholder,Border City Transport Ltd,EFT,Completed
+PAY044,CLM028,2024-11-05,Vehicle Repair,10500.00,Vendor,Orillia Auto Body,EFT,Completed
+PAY045,CLM029,2024-12-01,Roof/Porch,10000.00,Vendor,Simcoe Builders,EFT,Completed
+PAY046,CLM029,2024-12-10,Fence,4000.00,Vendor,Simcoe Builders,EFT,Completed
+PAY047,CLM030,2024-04-20,Emergency,15000.00,Vendor,Eastern Ontario Restoration,EFT,Completed
+PAY048,CLM030,2024-05-10,Structural,25000.00,Vendor,Kingston Commercial Build,EFT,Completed
+PAY049,CLM032,2024-03-05,Vehicle Repair,6000.00,Vendor,Downtown Auto Body Toronto,EFT,Completed
+PAY050,CLM033,2024-10-20,Restoration,25000.00,Vendor,ServiceMaster GTA,EFT,Completed
+PAY051,CLM033,2024-11-01,Contents,10000.00,Policyholder,Amanda Leblanc,Cheque,Completed
+PAY052,CLM033,2024-11-10,Accommodation,6000.00,Policyholder,Amanda Leblanc,EFT,Completed
+PAY053,CLM034,2024-09-01,Emergency,20000.00,Vendor,GTA Fire Restoration,EFT,Completed
+PAY054,CLM034,2024-09-20,Structural,40000.00,Vendor,Commercial Rebuild Toronto,EFT,Completed
+PAY055,CLM034,2024-10-01,Equipment,15000.00,Policyholder,York Mills Restaurant Group,EFT,Completed
+PAY056,CLM034,2024-10-15,Loss of Income,5000.00,Policyholder,York Mills Restaurant Group,EFT,Completed
+PAY057,CLM037,2024-05-20,Vehicle Repair,4000.00,Vendor,Ottawa Auto Body,EFT,Completed
+PAY058,CLM039,2024-10-15,Emergency Repair,120000.00,Vendor,Northern Mining Equipment,EFT,Completed
+PAY059,CLM039,2024-11-01,Loss of Income,150000.00,Policyholder,Sudbury Mining Services Inc,EFT,Completed
