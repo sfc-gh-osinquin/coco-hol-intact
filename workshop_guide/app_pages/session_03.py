@@ -10,6 +10,14 @@ render_technologies_used([
 ])
 
 
+st.info("""
+:material/add_circle: **Tip: start a new chat before this session.**
+
+To reduce token consumption and avoid context rot, it is good practice to start a new chat whenever your work is not related to previous prompts.
+
+Before getting into Cortex Search, click on the **+** icon at the top of the CoCo panel and start a new chat.
+""")
+
 PROMPT_3_1 = """In INSURANCE_AI.OPS:
 
 1. First, create a unified text table for search called INSURANCE_KNOWLEDGE_BASE that combines:
