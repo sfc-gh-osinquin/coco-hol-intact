@@ -98,6 +98,13 @@ Demonstrates iterative semantic view development — adding calculated metrics.
 - **Synonyms** map business language to technical conditions
 """)
 
+st.info("""
+:material/refresh: **You may need to refresh the Cortex Analyst page to see the updates to the semantic view.**
+
+Feel free to also use CoCo to ask for details on where exactly the changes were made — for example: *"indicate where exactly you made those changes"*
+""")
+st.image(str(_DIR / "static" / "semantic_view_expanded.png"), width=700)
+
 
 render_key_concepts([
     {"term": "Cortex Analyst", "definition": "Snowflake's text-to-SQL engine. Converts natural language to SQL using a semantic view for context."},
