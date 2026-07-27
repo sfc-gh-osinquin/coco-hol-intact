@@ -1,5 +1,8 @@
 import streamlit as st
+from pathlib import Path
 from components import render_session_header, render_prompt, render_explanation, render_technologies_used, render_key_concepts, render_what_you_built
+
+_DIR = Path(__file__).parent.parent
 
 render_session_header(3, "Cortex Search", "2:15 PM", "30 min", "Knowledge base, Cortex Search service, and RAG query pattern")
 
@@ -40,6 +43,13 @@ PROMPT_3_1 = """In INSURANCE_AI.OPS:
 Execute all SQL. Then verify with SHOW CORTEX SEARCH SERVICES."""
 
 render_prompt("Prompt 3.1", "Create Cortex Search Service", PROMPT_3_1)
+
+st.info("""
+:material/table_eye: **Tip: explore the knowledge base table CoCo just created.**
+
+CoCo's responses often include links to navigate to specific areas of Snowsight. Click on the **"Open in catalog"** option of the `INSURANCE_KNOWLEDGE_BASE` table pill in CoCo's response. Then click on **Data Preview** to get a sense of the content of the unified text table we just asked CoCo to create.
+""")
+st.image(str(_DIR / "static" / "knowledge_base_preview.png"), width=700)
 
 render_explanation("What this prompt does", """
 Builds a unified knowledge base from unstructured text sources and creates a hybrid search service.
