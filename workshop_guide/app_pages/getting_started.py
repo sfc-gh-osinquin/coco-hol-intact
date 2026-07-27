@@ -52,7 +52,7 @@ st.space("small")
 st.markdown("#### Step 4: Enable cross-region inference")
 
 with st.container(border=True):
-    st.markdown("Several sessions use Cortex LLM models that require cross-region inference. Enable it by pasting the following prompt in CoCo:")
+    st.markdown("Several sessions use Cortex LLM models that require cross-region inference. Enable it by pasting the following prompt in CoCo: **\"Enable Cross Region Inference in any region\"**")
     st.image(str(_DIR / "static" / "coco_cross_region.png"), width=480)
 
 st.space("small")
