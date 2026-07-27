@@ -79,6 +79,13 @@ Tests different search capabilities across the document corpus:
 """)
 
 
+st.info("""
+:material/search: **Similarly to the Playground feature in Cortex Analyst, there is a Playground feature in Cortex Search that you can use to test the Search Service.**
+
+In Snowsight, navigate to **AI & ML → Search** in the left sidebar and select `INSURANCE_SEARCH` to explore its contents and test queries interactively.
+""")
+st.image(str(_DIR / "static" / "cortex_search_playground.png"), width=700)
+
 PROMPT_3_3 = """In INSURANCE_AI.OPS, implement a RAG pattern:
 
 1. Question: "What are the most common fraud patterns in our portfolio, what are their root causes, and what detection methods have been most effective?"
