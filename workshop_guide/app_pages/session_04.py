@@ -10,6 +10,10 @@ render_technologies_used([
 ])
 
 
+st.info("""
+:material/add_circle: **Now you know the trick — start a new chat before this new section in order to start with fresh context.**
+""")
+
 PROMPT_4_1 = """In INSURANCE_AI.OPS, create a Cortex Agent called INSURANCE_AGENT.
 
 It should:
