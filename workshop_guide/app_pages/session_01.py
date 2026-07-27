@@ -1,5 +1,8 @@
 import streamlit as st
+from pathlib import Path
 from components import render_session_header, render_prompt, render_explanation, render_technologies_used, render_key_concepts, render_what_you_built
+
+_DIR = Path(__file__).parent.parent
 
 render_session_header(1, "Data Prep", "1:15 PM", "30 min", "Database, schema, warehouse, and 9 operational tables loaded from CSV")
 
@@ -58,6 +61,9 @@ st.markdown("""
 1. Download the zip file containing all CSVs: [insurance_data.zip](https://github.com/sfc-gh-osinquin/coco-hol-intact/raw/main/workshop_guide/data/insurance_data.zip)
 2. Unzip the file on your computer to get the individual CSV files.
 3. Using Snowsight, use the Horizon Catalog to browse to the `INSURANCE_AI.OPS.DATA` stage and upload all CSV files.
+""")
+st.image(str(_DIR / "static" / "stage_upload.png"), width=700)
+st.markdown("""
 4. Then copy the prompt below into Cortex Code and execute.
 """)
 
