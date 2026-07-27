@@ -1,5 +1,8 @@
 import streamlit as st
+from pathlib import Path
 from components import render_session_header, render_prompt, render_explanation, render_technologies_used, render_key_concepts, render_what_you_built
+
+_DIR = Path(__file__).parent.parent
 
 render_session_header(2, "Cortex Analyst & Semantic Views", "1:45 PM", "30 min", "Semantic view with relationships, metrics, and natural language queries")
 
@@ -61,8 +64,11 @@ render_prompt("Prompt 2.2", "Test with Natural Language Queries", PROMPT_2_2)
 st.info("""
 :material/lightbulb: **You can also test these in the Cortex Analyst UI!**
 
-In Snowsight, navigate to **AI & ML → Cortex Analyst** in the left sidebar. Select your `INSURANCE_OPERATIONS_VIEW` semantic view, and you'll see a playground where you can type natural language questions interactively.
+In Snowsight, navigate to **AI & ML → Analyst** in the left sidebar. Select your `INSURANCE_OPERATIONS_VIEW` semantic view in the `INSURANCE_AI.OPS` schema, and you'll see a playground where you can type natural language questions interactively.
+
+Test with the following question: **"What is the average claim amount for commercial vs personal policies?"**
 """)
+st.image(str(_DIR / "static" / "cortex_analyst_playground.png"), width=700)
 
 render_explanation("What this prompt does", """
 Tests Cortex Analyst across different question types to validate the semantic view definitions.
