@@ -1,4 +1,7 @@
+from pathlib import Path
 import streamlit as st
+
+_DIR = Path(__file__).parent.parent
 
 st.title("Getting Started")
 st.markdown("Provision a Snowflake account for the workshop")
@@ -49,13 +52,8 @@ st.space("small")
 st.markdown("#### Step 4: Enable cross-region inference")
 
 with st.container(border=True):
-    st.markdown("""
-Several sessions use Cortex LLM models that require cross-region inference. Enable it by running this SQL in a worksheet:
-
-```sql
-ALTER ACCOUNT SET CORTEX_ENABLED_CROSS_REGION = 'ANY_REGION';
-```
-""")
+    st.markdown("Several sessions use Cortex LLM models that require cross-region inference. Enable it by pasting the following prompt in CoCo:")
+    st.image(str(_DIR / "static" / "coco_cross_region.png"), width=480)
 
 st.space("small")
 
