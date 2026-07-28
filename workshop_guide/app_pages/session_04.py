@@ -1,5 +1,8 @@
 import streamlit as st
+from pathlib import Path
 from components import render_session_header, render_prompt, render_explanation, render_technologies_used, render_key_concepts, render_what_you_built
+
+_DIR = Path(__file__).parent.parent
 
 render_session_header(4, "Cortex Agents", "3:00 PM", "35 min", "Cortex Agent with Analyst + Search + custom tools")
 
@@ -50,6 +53,13 @@ render_explanation("What this prompt does", """
 Tests the agent with structured, unstructured, and mixed queries to validate tool routing.
 """)
 
+
+st.info("""
+:material/smart_toy: **Navigate to the Agent Studio, explore the Agent Configuration, and test the Agent with more questions using the Agent Preview feature.**
+
+In Snowsight, navigate to **AI & ML → Agents** in the left sidebar and select `INSURANCE_AGENT`. Use the **Preview** tab to chat with the agent interactively.
+""")
+st.image(str(_DIR / "static" / "agent_preview.png"), width=700)
 
 PROMPT_4_3 = """In INSURANCE_AI.OPS, add a custom tool to the agent:
 
