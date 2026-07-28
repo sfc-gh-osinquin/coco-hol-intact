@@ -1,5 +1,8 @@
 import streamlit as st
+from pathlib import Path
 from components import render_session_header, render_explanation, render_technologies_used, render_key_concepts, render_what_you_built
+
+_DIR = Path(__file__).parent.parent
 
 render_session_header(5, "CoWork", "3:35 PM", "25 min", "Collaborative AI analysis with CoWork")
 
@@ -36,6 +39,13 @@ for title, question in questions:
     with st.container(border=True):
         st.markdown(f"**{title}**")
         st.code(question, language="text", wrap_lines=True)
+
+st.info("""
+:material/bookmark: **Try saving your favorite graphs as Artifacts!**
+
+Click the bookmark icon on any chart to save it, then access all saved artifacts from the **Artifacts** panel on the left sidebar.
+""")
+st.image(str(_DIR / "static" / "cowork_artifacts.png"), width=700)
 
 st.space("small")
 
