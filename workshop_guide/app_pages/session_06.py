@@ -64,17 +64,21 @@ Generate all the app code."""
 render_prompt("Prompt 6.1", "Create the Streamlit App", PROMPT_6_1)
 
 st.success("""
-:material/rocket_launch: **Preview and Deploy your app!**
+:material/play_circle: **Preview your app!**
 
-Once Cortex Code has generated your app files in Workspaces:
-
-1. **Run** — Click the **Run** button (▶️) in the top-right of the Workspaces editor to preview your app locally.
-
-2. **Deploy** — When happy with the preview, click **Deploy** to publish the app to your Snowflake account so others with the appropriate role can access it.
+Once Cortex Code has generated your app files in Workspaces, click the **Run** button (▶️) in the top-right of the Workspaces editor to preview your app locally.
 
 Try modifying the app (add a chart, change KPI labels) and re-run to see changes live!
 """)
 st.image(str(_DIR / "static" / "streamlit_preview.png"), width=700)
+
+st.success("""
+:material/rocket_launch: **Deploy your app!**
+
+When happy with the preview, click **Deploy** to publish the app to your Snowflake account so others with the appropriate role can access it.
+
+Set the **App location** to `INSURANCE_AI.OPS`, select `INSURANCE_COMPUTE_POOL` as the compute pool, and `COMPUTE_WH` as the query warehouse.
+""")
 st.image(str(_DIR / "static" / "streamlit_deploy.png"), width=700)
 
 render_explanation("What this prompt does", """
