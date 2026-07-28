@@ -81,6 +81,13 @@ Set the **App location** to `INSURANCE_AI.OPS`, select `INSURANCE_COMPUTE_POOL` 
 """)
 st.image(str(_DIR / "static" / "streamlit_deploy.png"), width=700)
 
+st.info("""
+:material/apps: **Your deployed apps will appear in the Apps menu.**
+
+Navigate to **Apps** in the left navigation panel to find and launch your `Insurance Operations Dashboard`.
+""")
+st.image(str(_DIR / "static" / "apps_menu.png"), width=700)
+
 render_explanation("What this prompt does", """
 Creates a Streamlit in Snowflake application using only built-in packages:
 
