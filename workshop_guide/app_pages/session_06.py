@@ -1,5 +1,8 @@
 import streamlit as st
+from pathlib import Path
 from components import render_session_header, render_prompt, render_explanation, render_technologies_used, render_key_concepts, render_what_you_built
+
+_DIR = Path(__file__).parent.parent
 
 render_session_header(6, "Streamlit", "4:00 PM", "30 min", "Operations dashboard with AI chat interface")
 
@@ -22,6 +25,7 @@ For this section, open **Workspaces** in Snowsight (left navigation panel → Pr
 
 Paste the prompts below into Cortex Code **within Workspaces** so the generated code is written directly into your app files.
 """)
+st.image(str(_DIR / "static" / "workspaces_nav.png"), width=400)
 
 
 PROMPT_6_1 = """In Workspaces, create a Streamlit app called INSURANCE_DASHBOARD in INSURANCE_AI.OPS.
