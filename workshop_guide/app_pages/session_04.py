@@ -22,6 +22,7 @@ PROMPT_4_1 = """In INSURANCE_AI.OPS, create a Cortex Agent called INSURANCE_AGEN
 It should:
 - Use auto as the orchestration model
 - Have two tools: the INSURANCE_OPERATIONS_VIEW semantic view (for structured data queries) and the INSURANCE_SEARCH Cortex Search service (for unstructured document search)
+- For the Cortex Analyst tool, specify the execution environment in the tool_resources section using execution_environment with nested type: warehouse and warehouse: COMPUTE_WH
 - Include instructions defining it as the Intact Insurance Operations Assistant, guiding it to use structured data for premium analysis, claims metrics, loss ratios, broker performance, and risk scores and search for claim details, fraud investigation findings, regulatory compliance information, and adjuster notes
 - Mention domain context: This agent serves Intact Insurance operations teams analyzing P&C insurance data across Ontario. It can answer questions about policy portfolios, claims experience, fraud patterns, and regulatory compliance.
 - Include 3-4 sample questions spanning both tools
@@ -107,7 +108,7 @@ $$
     )
 $$;
 
-2. Recreate INSURANCE_AGENT with CALCULATE_RISK_PREMIUM as an additional tool.
+2. Recreate INSURANCE_AGENT with CALCULATE_RISK_PREMIUM as an additional tool. Keep the same execution_environment (type: warehouse, warehouse: COMPUTE_WH) on the Cortex Analyst tool.
 
 3. Test with: "Calculate the risk-adjusted premium for a High-risk customer with a base premium of $2,500, 2 prior claims, and 3 years as a customer"
 
