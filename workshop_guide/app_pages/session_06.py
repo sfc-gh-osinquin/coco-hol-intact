@@ -74,6 +74,7 @@ Once Cortex Code has generated your app files in Workspaces:
 
 Try modifying the app (add a chart, change KPI labels) and re-run to see changes live!
 """)
+st.image(str(_DIR / "static" / "streamlit_preview.png"), width=700)
 
 render_explanation("What this prompt does", """
 Creates a Streamlit in Snowflake application using only built-in packages:
