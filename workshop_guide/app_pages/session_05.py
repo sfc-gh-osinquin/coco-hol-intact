@@ -14,7 +14,7 @@ st.markdown("---")
 st.markdown("#### :material/open_in_new: Open CoWork")
 with st.container(border=True):
     st.markdown("""
-In Snowsight, click **CoWork** in the left navigation panel. Start a new conversation.
+Access CoWork by either clicking **Snowflake CoWork** in the left navigation panel or clicking **Preview in Snowflake CoWork** in the Agent Preview. Start a new conversation.
 
 CoWork discovers your tables in `INSURANCE_AI.OPS` automatically. Paste each question below one at a time.
 """)
