@@ -36,6 +36,7 @@ First, create a compute pool:
 - Min and max nodes of 1
 
 The app should use ONLY built-in Streamlit features (no external pip packages like plotly — use st.bar_chart, st.line_chart, st.metric, and st.dataframe instead). This avoids needing External Access Integrations which are restricted on trial accounts.
+Use tables in INSURANCE_AI.OPS: POLICIES, CLAIMS, RISK_SCORES...
 
 Build 2 pages:
 
