@@ -72,4 +72,4 @@ with st.container(border=True):
 """)
 
 st.space("medium")
-st.caption("Built for the July 29, 2026 workshop  :material/location_on:  Intact Insurance Office, Toronto, ON")
+st.caption("Built for the July 29, 2026 workshop  :material/location_on:  Intact Insurance Office, 2020 Blvd Robert-Bourassa Ste 100, Montréal, QC H3A 2A5")

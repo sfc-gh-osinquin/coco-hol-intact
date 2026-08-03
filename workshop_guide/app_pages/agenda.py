@@ -46,7 +46,7 @@ st.space("small")
 st.markdown("##### Location")
 with st.container(border=True):
     st.markdown("""
-:material/location_on: **Intact Insurance Office, Toronto, ON**
+:material/location_on: **Intact Insurance Office, 2020 Blvd Robert-Bourassa Ste 100, Montréal, QC H3A 2A5 — Room: RB R-12**
 
 July 29, 2026 — 1:00 PM to 5:00 PM
 """)

@@ -12,7 +12,7 @@ st.markdown("#### Step 1: Sign up for a free trial")
 
 with st.container(border=True):
     st.markdown("""
-Go to **[signup.snowflake.com](https://signup.snowflake.com/?t=cad5d6e9c8d431c2239aa81694b6b7951bff6edd23f9dc38facae3df7d11f780)** and fill out the registration form with your name, email, and company.
+Go to **[signup.snowflake.com](https://signup.snowflake.com/?t=f37574c03bf7882ad21659182851cc4cc795d2af38d2df8541e04932d4dc024d)** and fill out the registration form with your name, email, and company.
 
 On the **Choose your Snowflake edition** screen, select:
 
